@@ -1,0 +1,106 @@
+* { 
+    margin: 0;
+    padding: 0; 
+}
+header {
+
+    background-color: rgb(26, 24, 24);
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg-body-tertiary {
+    color: rgb(26, 24, 24) ;
+}
+
+.navLink {
+   font-size: 900;
+   color: aliceblue;
+}
+.titulo-principal {
+    font-family: 'Tilt Prism', cursive;
+    color: crimson;
+    padding: 25px;
+}
+
+.titulo-secundario {
+    font-family: 'Tilt Prism', cursive;
+    color: crimson;
+}
+
+p {
+    color: #000000;
+}
+
+.Integrantes {
+    color: #000000;
+}
+
+.body {
+    border: 30px;
+    padding: 30px;
+    height:  10px;
+    background-color: rgb(99, 11, 18);
+}
+ul { list-style: none;
+
+}
+.links {
+    text-align: center;
+}
+footer {
+    background-color: rgb(26, 24, 24);
+}
+
+.grid-container {
+    background-color: rgb(26, 24, 24);
+    color: aliceblue;
+    justify-items: center;
+    display: grid;
+    grid-template-areas:
+    "img-1 vid-1 p-1"
+    "img-2 vid-2 p-2"
+    "img-3 vid-3 p-3"
+
+
+
+
+}
+
+.img-1 {
+    
+    grid-area: img-1;
+}
+
+.img-2 {
+    grid-area: img-2;
+}
+
+.img-3 {
+    grid-area: img-3;
+}
+
+.vid-1 {
+    grid-area: vid-1;
+}
+
+.vid-2 {
+    grid-area: vid-2;
+}
+
+.vid-3 {
+    grid-area: vid-3;
+}
+
+.p-1 {
+    grid-area: p-1;
+}
+
+.p-2 {
+    grid-area: p-2;
+}
+
+.p-3 {
+    grid-area: p-3;
+    justify-self: center;
+}
