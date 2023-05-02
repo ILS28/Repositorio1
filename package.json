@@ -1,0 +1,12 @@
+{
+  "name": "index.html1---copia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+   "compile": "sass --watch scss:css"
+
+  },
+  "author": "",
+  "license": "ISC"
+}
