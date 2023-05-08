@@ -10,17 +10,13 @@ header {
 }
 
 nav{
+    padding: auto;
     color: aliceblue;
 }
 
-.bg-body-tertiary {
-    color: rgb(26, 24, 24) ;
-}
 
-.navLink {
-   font-size: 900;
-   color: aliceblue;
-}
+
+
 .titulo-principal {
     font-family: 'Tilt Prism', cursive;
     color: crimson;
