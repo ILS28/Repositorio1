@@ -10,11 +10,13 @@ header {
 }
 
 nav{
-    padding: auto;
+    padding: 0.5;
     color: aliceblue;
 }
 
-
+li {
+    padding: 0.5;
+}
 
 
 .titulo-principal {
