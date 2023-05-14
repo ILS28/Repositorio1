@@ -24,6 +24,8 @@ ul {
 
 $title-color: #dc143c
 $title-font: 'Tilt Prism', cursive;
+$text-color: #000000
+$background-color #630b12
 
 
 .titulo-principal {
@@ -38,18 +40,18 @@ $title-font: 'Tilt Prism', cursive;
 }
 
 p {
-    color: #000000;
+    color: $text-color
 }
 
 .Integrantes {
-    color: #000000;
+    color: $text-color
 }
 
 .body {
     border: 30px;
     padding: 30px;
     height:  10px;
-    background-color: rgb(99, 11, 18);
+    background-color: $background-color
 }
 ul { list-style: none;
 
