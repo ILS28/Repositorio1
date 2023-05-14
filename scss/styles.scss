@@ -9,25 +9,32 @@ header {
     justify-content: space-between;
 }
 
-nav{
-    padding: 0.5;
-    color: aliceblue;
+.bg-body-tertiary {
+    color: rgb(26, 24, 24) ;
+}
+
+.navLink {
+   font-size: 900;
+   color: aliceblue;
 }
 
 ul {
     padding: 0.5px;
 }
 
+$title-color: #dc143c
+$title-font: 'Tilt Prism', cursive;
+
 
 .titulo-principal {
-    font-family: 'Tilt Prism', cursive;
-    color: crimson;
+    font-family: $title-font
+    color: $title-color
     padding: 25px;
 }
 
 .titulo-secundario {
-    font-family: 'Tilt Prism', cursive;
-    color: crimson;
+    font-family: $title-font
+    color: $title-color
 }
 
 p {
